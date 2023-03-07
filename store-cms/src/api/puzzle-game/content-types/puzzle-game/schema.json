@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "puzzle_games",
+  "info": {
+    "singularName": "puzzle-game",
+    "pluralName": "puzzle-games",
+    "displayName": "Racing-Games",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Reviews": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popular_games",
+  "info": {
+    "singularName": "popular-game",
+    "pluralName": "popular-games",
+    "displayName": "Popular-games",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Ratings": {
+      "type": "string"
+    }
+  }
+}
